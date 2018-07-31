@@ -1,7 +1,8 @@
-1. git常用命令
-分为两种情况
+## 1. git常用命令
 
-第一种已有仓库：
+*分为两种情况*
+
+**第一种已有仓库：**
 
 1、从远程拉取git clone <地址>
 
@@ -11,24 +12,36 @@
 
 4、git commit -m "本次提交的注释"
 
-5、git push origin master 将修改提交到远程仓库主分支。
+5、git push origin master    将修改提交到远程仓库主分支。
 
-分支的相关知识：
+***
 
-查看分支 git branch
+**分支的相关知识：**
 
-切换分支 git checkout
+查看分支   git branch
 
-删除分支 git branch -d <未打开的分支名>
+切换分支   git checkout
 
-合并分支 git merge <分支名>
+删除本地分支   git branch -d <未打开的分支名>
+
+删除远程分支  git push origin --delete <远程分支名>
+
+合并分支   git merge <分支名>
 
 合并完分支后还要git push将内容提交到远程
 
-第二种新建仓库：
+***
+
+**第二种新建仓库：**
 
 需要git remote add <仓库地址> 连接远程仓库
 
-查看状态
+***
 
-回退
+**查看状态**
+
+***
+
+**回退**
+
+
